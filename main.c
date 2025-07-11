@@ -38,6 +38,8 @@ void *thread_func(void *arg) {
 
     pthread_mutex_lock(&lock);
     total += local_total;
+    printf("The number of substrings thread %d find is %d\n", t_arg->thread_id + 1, local_total);
+
     pthread_mutex_unlock(&lock);
 
     pthread_exit(NULL);
