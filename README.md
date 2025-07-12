@@ -1,5 +1,4 @@
-# CS3502-P2
-Report
+# Report
 
 Read Input Strings:
 Reads two lines from strings.txt after opening it.
@@ -32,6 +31,6 @@ Local Store Count- count[tid] = local_count in an array
 Returning to main():
 Add up all of the values from countArray[] and output the total after all threads have finished (pthread_join()).
 
+<img width="827" height="708" alt="image" src="https://github.com/user-attachments/assets/d3d89352-5dea-4493-ac62-492d774ceeb2" />
 
-![CS3502-P2](https://github.com/user-a#define MAX 10240
-#define NUM_THREADS 10ttachments/assets/7bf2de22-ff81-47ad-9892-36376134b2ee)
+
